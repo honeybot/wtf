@@ -1,0 +1,14 @@
+{
+	"name": "demo",
+	"version": "0.1",
+  "storages": { },
+	"plugins": {			
+		"demo.hello_world": [{"name": "First"}, {"name": "Second"}]
+	},
+	"actions": {
+		"log": [{"name": "err_log", "log_level": 4}]
+	},
+	"solvers": {
+		"demo_solver": []
+	}
+}
