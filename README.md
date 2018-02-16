@@ -2,8 +2,9 @@
 WTF is a Web Tailoring Framework built on top of Nginx/OpenResty.
 
 ## Quick Start
-Before install WTF you need `OpenResty`, `lua-rocks` and `git` installed.
-For Debian-based distro run:
+Before install WTF you need `OpenResty`, `lua-rocks` and `git` installed. Please follow this [guide](https://openresty.org/en/linux-packages.html) to add OpenResty repo to your system.
+
+To install packages in Debian-based system run:
 ```Shell
 $ sudo apt-get update
 $ sudo apt-get install openresty luarocks git
